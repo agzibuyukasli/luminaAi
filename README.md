@@ -1,7 +1,7 @@
-🌟 Lumina AI: Yapay Zeka Destekli Akıllı Öneri Sistemi
+# 🌟 Lumina AI: Yapay Zeka Destekli Akıllı Öneri Sistemi #
 "Binlerce seçenek, tek bir ışık." > Lumina AI, adını Latince ışık anlamına gelen Lumen kelimesinden alır. Binlerce film ve kitap arasında kaybolduğunuzda, yapay zeka algoritmalarımız size en uygun yolu aydınlatmak için tasarlandı.
 
-✨ Özellikler
+##✨ Özellikler ##
 Hibrit Öneri Motoru: Hem filmler hem de kitaplar için içerik tabanlı (Content-Based) filtreleme.
 
 Akıllı Arama: NLP teknikleri kullanarak film özetleri, oyuncu kadroları ve kitap yazarları üzerinden benzerlik kurma.
@@ -12,7 +12,7 @@ Lumina Favorilerim: Beğendiğiniz içerikleri anlık olarak kaydedebileceğiniz
 
 Görsel Katalog: Kitap kapaklarını ve film afişlerini içeren şık kart tasarımları.
 
-🛠️ Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler ##
 Dil: Python
 
 Arayüz: Streamlit
@@ -23,7 +23,7 @@ Görselleştirme: Streamlit-Lottie, Custom CSS
 
 Veri Setleri: TMDB 5000 Movies & Books Dataset
 
-🚀 Kurulum ve Çalıştırma
+## 🚀 Kurulum ve Çalıştırma ##
 Projeyi yerel makinenizde çalıştırmak için şu adımları izleyin:
 
 Depoyu Klonlayın:
@@ -42,7 +42,7 @@ Uygulamayı Başlatın:
 Bash
 
 streamlit run main.py
-📂 Dosya Yapısı
+## 📂 Dosya Yapısı ##
 Plaintext
 
 lumina-ai/
@@ -53,5 +53,5 @@ lumina-ai/
 ├── main.py              # Uygulamanın ana kodu
 ├── requirements.txt     # Gerekli Python kütüphaneleri
 └── README.md            # Proje dökümantasyonu
-🧠 Algoritma Nasıl Çalışır?
+## 🧠 Algoritma Nasıl Çalışır? ##
 Lumina AI, içeriklerin metinsel verilerini (film özetleri, türler, yazarlar) TF-IDF (Term Frequency-Inverse Document Frequency) yöntemiyle sayısal vektörlere dönüştürür. Ardından, bu vektörler arasındaki Cosine Similarity (Kosinüs Benzerliği) değerini hesaplayarak, seçtiğiniz içeriğe matematiksel olarak en yakın olanları önünüze getirir.
